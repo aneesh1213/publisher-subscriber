@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publisher Subscriber System</title>
+    <!-- You can include any CSS stylesheets here -->
+</head>
+<body>
+    <h1>Publisher Subscriber System</h1>
+    
+    <!-- Form to subscribe to a topic -->
+    <h2>Subscribe</h2>
+    <form id="subscribeForm">
+        <label for="topicId">Topic ID:</label>
+        <input type="text" id="topicId" name="topicId">
+        <label for="subscriberId">Subscriber ID:</label>
+        <input type="text" id="subscriberId" name="subscriberId">
+        <button type="submit">Subscribe</button>
+    </form>
+
+    <!-- Section to display notifications -->
+    <h2>Notifications</h2>
+    <ul id="notifications"></ul>
+
+    <!-- Include JavaScript file -->
+    <script src="frontend.js"></script>
+</body>
+</html>
